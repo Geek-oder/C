@@ -1,0 +1,32 @@
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+
+  <servlet>
+  	<servlet-name>RegistrationServlet</servlet-name>
+  	<servlet-class>Servlets.RegistrationServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+  	<servlet-name>RegistrationServlet</servlet-name>
+  	<url-pattern>/RegistrationServlet</url-pattern>
+  </servlet-mapping>
+
+
+<servlet>
+  	<servlet-name>LoginUserServlet</servlet-name>
+  	<servlet-class>Servlets.LoginUserServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+  	<servlet-name>LoginUserServlet</servlet-name>
+  	<url-pattern>/LoginUserServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+
+</web-app>
